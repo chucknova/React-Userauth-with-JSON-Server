@@ -20,6 +20,34 @@
       "lastName": "Akinbote",
       "email": "frankocean@gmail.com",
       "password": "Frankocean89$"
+    },
+    {
+      "id": "68d0",
+      "firstName": "Ariana",
+      "lastName": "Grande",
+      "email": "arianagrande@gmail.com",
+      "password": "Temis2000#"
+    },
+    {
+      "id": "d4ec",
+      "firstName": "Aderibigbe",
+      "lastName": "Johnson",
+      "email": "johnson90@gmail.com",
+      "password": "Houstonnigga89$"
+    },
+    {
+      "id": "0c85",
+      "firstName": "Travis",
+      "lastName": "Scott",
+      "email": "travisscott@gmail.com",
+      "password": "Temis2000$"
+    },
+    {
+      "id": "320d",
+      "firstName": "justin",
+      "lastName": "bieber",
+      "email": "justinbieber@gmail.com",
+      "password": "Temis2000$"
     }
   ]
 }

@@ -1,9 +1,10 @@
 import SignupForm from './SignupForm';
+import Counter from './Counter'
 
 function App() {
   return (
   <>
-  <SignupForm></SignupForm>
+  <Counter></Counter>
   </>
   );
 }

@@ -1,4 +1,4 @@
-/* SignupForm.css */
+/* SignupForm.css - Dark Mode Version */
 
 /* Container styling */
 .signup-container {
@@ -6,22 +6,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
     padding: 20px;
 }
 
 .signup-form-wrapper {
-    background: white;
+    background: #1f1f2e;
     border-radius: 12px;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
     padding: 40px;
     width: 100%;
     max-width: 480px;
+    color: #f0f0f0;
 }
 
 .form-title {
     text-align: center;
-    color: #333;
+    color: #ffffff;
     margin-bottom: 30px;
     font-size: 28px;
     font-weight: 600;
@@ -41,7 +42,7 @@
 .form-label {
     display: block;
     margin-bottom: 6px;
-    color: #555;
+    color: #cccccc;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.3px;
@@ -50,35 +51,36 @@
 .form-input {
     width: 100%;
     padding: 14px 16px;
-    border: 2px solid #e1e5e9;
+    border: 2px solid #3c3c4e;
     border-radius: 8px;
     font-size: 16px;
     transition: all 0.3s ease;
     box-sizing: border-box;
-    background-color: #fafbfc;
+    background-color: #2e2e3e;
+    color: #ffffff;
 }
 
 .form-input:focus {
     outline: none;
     border-color: #667eea;
-    background-color: white;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    background-color: #2e2e3e;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.3);
 }
 
 .form-input.error {
     border-color: #e74c3c;
-    background-color: #fdf2f2;
+    background-color: #4e2e2e;
 }
 
 .form-input.error:focus {
     border-color: #e74c3c;
-    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.1);
+    box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
 }
 
 /* Error message styling */
 .error-message {
     margin-top: 6px;
-    color: #e74c3c;
+    color: #ff6b6b;
     font-size: 13px;
     font-weight: 500;
 }
@@ -130,7 +132,7 @@
     
     .form-input {
         padding: 12px 14px;
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px;
     }
 }
 
@@ -151,6 +153,8 @@
 }
 
 .Toastify__toast {
+    background-color: #2c2c3c;
+    color: #f0f0f0;
     border-radius: 8px;
     font-weight: 500;
 }
