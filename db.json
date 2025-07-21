@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": "feb9",
+      "firstName": "Temiloluwa",
+      "lastName": "Akinbote",
+      "email": "akinbotetemiloluwa9@gmail.com",
+      "password": "Temis2000$"
+    },
+    {
+      "id": "45e5",
+      "firstName": "Charli",
+      "lastName": "XCX",
+      "email": "charlixcx@gmail.com",
+      "password": "Temis2000$"
+    },
+    {
+      "id": "18bf",
+      "firstName": "Temiloluwa",
+      "lastName": "Akinbote",
+      "email": "frankocean@gmail.com",
+      "password": "Frankocean89$"
+    }
+  ]
+}
