@@ -4,7 +4,7 @@ import axios from 'axios';
 import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import './SignupForm.css'; 
+import './SignupForm.css';
 
 const SignupForm = () => {
     const checkUserExists = async (email) => {

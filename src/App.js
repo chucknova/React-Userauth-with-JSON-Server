@@ -1,10 +1,12 @@
 import SignupForm from './SignupForm';
-import Counter from './Counter'
+// import Counter from './Counter'
+import FetchUser from './FetchUser';
 
 function App() {
   return (
   <>
-  <Counter></Counter>
+  {/* <Counter></Counter> */}
+  <FetchUser></FetchUser>
   </>
   );
 }
